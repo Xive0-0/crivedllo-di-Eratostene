@@ -3,18 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Crivello di Eratostene</h1>
     <div>
       <input type="text" id="numero"/>
     </div>
+
     <div id="pulsanti" type="button">
       <input type="checkbox" />
       <button onclick="eratostene()">Calcola</button>
       <button>Pulisci</button>
     </div>
-    <div class="flex flex-auto" id="tabella"></div>
+
+    <div class="tabella" id="tabella"></div>
     <script src="script.js"></script>
   </body>
 </html>

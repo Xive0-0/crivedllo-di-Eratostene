@@ -1,5 +1,4 @@
 function eratostene() {
-    // Generate an array to mark prime numbers
 let numero = document.getElementById('numero').value;
 let tabella=document.getElementById('tabella');
 let risultato = parseInt(numero);
@@ -21,7 +20,7 @@ let risultato = parseInt(numero);
 
     for (let i = 0; i <= numeri.length; i++) {
         if (numeri[i]) console.log(i);
-        tabella.innerHTML+= `<div>${i}<div>`;
+        tabella.innerHTML+= `<div class="numero">${i}<div>`;
         
     }
 
